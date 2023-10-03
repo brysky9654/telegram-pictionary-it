@@ -69,7 +69,7 @@ cp .env.example .env
 1. Stop docker-compose:
 
     ```shell
-    task purge
+    task down
     ```
 2. Delete the telegram bot:
     send `/deletebot` to [@BotFather](https://t.me/BotFather).

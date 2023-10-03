@@ -8,9 +8,9 @@ up:
 	docker compose up --pull --build
 .PHONY: start
 
-purge:
-	docker compose purge
-.PHONY: purge
+down:
+	docker compose down
+.PHONY: down
 
 stop:
 	docker compose stop
