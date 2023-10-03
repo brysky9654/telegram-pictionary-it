@@ -1,0 +1,6 @@
+[submodule "backend"]
+	path = backend
+	url = git@github.com:hedhyw/telegram-pictionary-it-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = git@github.com:hedhyw/telegram-pictionary-it-frontend.git
