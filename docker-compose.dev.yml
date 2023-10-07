@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  ngrok:
+    image: ngrok/ngrok:3.3.5-alpine
+    restart: unless-stopped
+    environment:
+      NGROK_AUTHTOKEN: ${NGROK_AUTHTOKEN}
+    command:
+      - "http"
+      - "--domain=${DOMAIN}"
+      - "nginx:80"
+    volumes:
+      - ./ngrok.yml:/etc/ngrok.yml
+
+  nginx:
+    image: nginx:1.25.2-alpine3.18
+    volumes:
+    - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

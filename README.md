@@ -56,7 +56,10 @@ cp .env.example .env
     ```
 2. Start docker-compose:
     ```shell
-    task up
+    make up
+
+    # Or if you want to use local backend and frontend, then run with `sudo`:
+    make up.dev
     ```
     > Make sure that the port 8081 is available on your machine.
 3. That is it! Try to send a message to your bot and follow instructions.
@@ -69,7 +72,7 @@ cp .env.example .env
 1. Stop docker-compose:
 
     ```shell
-    task down
+    make down
     ```
 2. Delete the telegram bot:
     send `/deletebot` to [@BotFather](https://t.me/BotFather).
