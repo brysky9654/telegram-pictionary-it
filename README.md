@@ -5,7 +5,9 @@ It is made for the Telegram Contest.
 
 ## Demo
 
-Send any message to [@pictionaryitbot](https://t.me/pictionaryitbot) and following the instructions.
+Send any message to [@pictionaryitbot](https://t.me/pictionaryitbot) and follow the instructions.
+
+![Demo of the gameplay](assets/demo.webp).
 
 ## Requirnments
 
