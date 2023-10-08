@@ -26,8 +26,6 @@ services:
       - "http"
       - "--domain=${DOMAIN}"
       - "nginx:80"
-    volumes:
-      - ./ngrok.yml:/etc/ngrok.yml
   nginx:
     image: nginx:1.25.2-alpine3.18
     ports:
