@@ -1,7 +1,6 @@
 # Telegram Pictionary It
 
-It is a telegram mini Web App game in which players draw and guess pictures.
-It is made for the Telegram Contest.
+[@pictionaryitbot](https://t.me/pictionaryitbot) is a Telegram Mini App online game in which players draw and guess pictures.
 
 ## Demo
 
