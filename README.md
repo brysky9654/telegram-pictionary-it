@@ -1,14 +1,22 @@
 # Telegram Pictionary It
 
-[@pictionaryitbot](https://t.me/pictionaryitbot) is a Telegram Mini App online game in which players draw and guess pictures.
+[@pictionaryitbot](https://t.me/pictionaryitbot) is a Telegram Mini App online game in which players can draw and guess pictures.
 
 ## Demo
 
 Send any message to [@pictionaryitbot](https://t.me/pictionaryitbot) and follow the instructions.
 
-![Demo of the gameplay](assets/demo.webp).
+![Demo of the gameplay](assets/demo.gif).
 
-## Requirnments
+Instructions:
+1. Send the Mini App to a **group** chat: https://t.me/pictionaryitbot/play.
+2. Ask players to open the link.
+3. Press start when everyone is ready.
+4. One player receives a word and should draw it. All other players don't know the word and need to guess it by the drawing.
+5. The round ends when everyone guesses correctly or time up.
+6. If a user has any problem, this user will be out of the round and then can join again, but their score will be lost.
+
+## Requirements
 
 - [docker](https://www.docker.com/products/docker-desktop/).
 - [make](https://en.wikipedia.org/wiki/Make_(software)).
